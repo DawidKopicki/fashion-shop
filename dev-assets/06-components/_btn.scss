@@ -13,6 +13,10 @@
         text-decoration: none;
     }
 
+    &__icon {
+        margin-left: .5rem;
+    }
+
     &--accent {
         background-color: $accent;
         color: $white;
@@ -21,5 +25,35 @@
             background-color: darken($accent, 15%);
             color: $white;
         }
+    }
+
+    &--light {
+        background-color: $white;
+        color: $gray-very-dark;
+
+        &:hover {
+            background-color: darken($white, 15%);
+            color: $gray-very-dark;
+        }
+    }
+
+    &--outline {
+        padding: .55rem 1rem;
+        background-color: transparent;
+        border: 3px solid $white;
+        font-size: $font-size-3;
+        line-height: 1;
+        color: $white;
+
+        &:hover {
+            color: darken($white, 15%);
+            border: 2px solid darken($white, 15%);
+        }
+    }
+
+    &--small {
+        border-radius: 3px;
+        font-size: $font-size-9;
+        padding: .55rem .75rem;
     }
 }

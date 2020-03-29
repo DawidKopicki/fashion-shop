@@ -1,0 +1,22 @@
+.c-icon-box {
+    text-align: center;
+
+    &__image {
+        margin-bottom: $grid-base * 1.5;
+    }
+
+    &__name {
+        display: block;
+        color: $accent;
+        font-size: $font-size-5;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: $line-height-sm;
+    }
+
+    &__info {
+        display: block;
+        font-size: $font-size-7;
+        color: $gray-dark;
+    }
+}

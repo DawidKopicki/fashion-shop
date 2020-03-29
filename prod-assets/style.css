@@ -150,3 +150,19 @@ a {
         display: inline-block;
         width: auto;
         margin-right: 40px; } }
+
+.c-icon-box {
+  text-align: center; }
+  .c-icon-box__image {
+    margin-bottom: 15px; }
+  .c-icon-box__name {
+    display: block;
+    color: #f1c40f;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2; }
+  .c-icon-box__info {
+    display: block;
+    font-size: 0.75rem;
+    color: #797979; }

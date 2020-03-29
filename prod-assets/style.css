@@ -127,3 +127,26 @@ a {
   .c-input--newsletter {
     padding: .7rem 1.5rem;
     border-radius: 5px 0 0 5px; }
+
+.c-nav {
+  margin-bottom: 10px; }
+  @media (min-width: 1200px) {
+    .c-nav {
+      margin-bottom: 0; } }
+  .c-nav__item {
+    display: block;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: #444444;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase; }
+    .c-nav__item:hover {
+      color: #444444; }
+    @media (min-width: 1200px) {
+      .c-nav__item {
+        display: inline-block;
+        width: auto;
+        margin-right: 40px; } }

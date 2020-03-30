@@ -255,6 +255,13 @@ a {
     font-size: 1.125rem;
     font-weight: 700; }
 
+.t-site-header__top {
+  background-color: #fff;
+  padding-bottom: 20px; }
+  @media (min-width: 1200px) {
+    .t-site-header__top {
+      padding-bottom: 0; } }
+
 .u-bg-white {
   background-color: #fff; }
 

@@ -482,6 +482,54 @@ a {
       .t-shopper-info__item {
         margin-bottom: 0; } }
 
+.t-site-footer {
+  background-color: #444444; }
+  .t-site-footer .o-row {
+    padding-bottom: 15px;
+    padding-top: 40px; }
+  .t-site-footer__item {
+    margin-bottom: 30px; }
+    @media (min-width: 1200px) {
+      .t-site-footer__item {
+        margin-bottom: 0; } }
+  .t-site-footer__item-last {
+    width: 290px; }
+    @media (min-width: 1200px) {
+      .t-site-footer__item-last {
+        margin-left: 75px; } }
+  .t-site-footer__text {
+    color: #fff;
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 20px; }
+  .t-site-footer__link {
+    color: #fff;
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 12px; }
+    .t-site-footer__link:hover {
+      color: #fff; }
+  .t-site-footer__address {
+    padding-right: 40px; }
+  .t-site-footer__info {
+    line-height: 2; }
+  .t-site-footer__links {
+    display: flex; }
+  .t-site-footer__links-first {
+    width: 55%; }
+  .t-site-footer__links-second {
+    width: 45%; }
+  .t-site-footer__instagrams {
+    margin-bottom: 15px; }
+  .t-site-footer__instagram {
+    margin-right: 3px; }
+  .t-site-footer__copy {
+    background-color: #f2f3f5;
+    color: #444444;
+    font-size: 0.5625rem;
+    padding-bottom: 25px;
+    padding-top: 25px; }
+
 .u-bg-white {
   background-color: #fff; }
 

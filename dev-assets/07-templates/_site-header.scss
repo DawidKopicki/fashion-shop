@@ -1,0 +1,67 @@
+.t-site-header {
+    &__top {
+        background-color: $white;
+        padding-bottom: $grid-base * 2;
+
+        @include large-up {
+            padding-bottom: 0;
+        }
+    }
+
+    &__icons {
+        text-align: center;
+
+        @include large-up {
+            text-align: right;
+        }
+    }
+
+    &__icon {
+        display: inline-block;
+        position: relative;
+        margin-left: $grid-base * 1.5;
+    }
+
+    &__number {
+        position: absolute;
+        height: 14px;
+        width: 14px;
+        right: -7px;
+        bottom: 0;
+        background-color: $accent;
+        border-radius: 50%;
+        color: $white;
+        font-size: $font-size-9;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__hero {
+        background: $yellow-gradient;
+        color: $gray-very-dark;
+        padding-bottom: $grid-base * 8;
+        padding-top: $grid-base * 8;
+
+        @include large-up {
+            background: url('../images/header-postac.png') 15% 100% no-repeat, $yellow-gradient;
+            padding-bottom: $grid-base * 18;
+            padding-top: $grid-base * 20;
+        }
+    }
+
+    &__hero-right {
+        @include large-up {
+            padding-left: $grid-base * 72.5;
+            padding-right: 0;
+        }
+    }
+
+    &__intro-text {
+        font-size: $font-size-3;
+        text-transform: uppercase;
+    }
+
+    &__cta {
+        margin-top: $grid-base * 5;
+    }
+}

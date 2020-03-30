@@ -17,7 +17,7 @@
             padding-top: $grid-base * 7;
 
             @include medium-up {
-                background: url('../images/promo-1.jpg') no-repeat;
+                background: url('../images/promo-1.jpg') 100% no-repeat;
             }
 
             @include large-up {
@@ -29,11 +29,12 @@
             background-color: #2bb9d5;
 
             @include medium-up {
-                background: url('../images/promo-2.jpg') no-repeat;
+                background: url('../images/promo-2.jpg') 100% no-repeat;
             }
 
             @include large-up {
                 padding-left: $grid-base * 7;
+                margin-right: -$grid-base * 1.5;
             }
 
             & .c-btn {
@@ -45,7 +46,7 @@
             background-color: #f3bbc4;
 
             @include medium-up {
-                background: url('../images/promo-3.jpg') no-repeat;
+                background: url('../images/promo-3.jpg') 100% no-repeat;
             }
 
             @include large-up {

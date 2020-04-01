@@ -86,7 +86,9 @@
 
     &__code {
         & .c-btn {
-            margin-left: $grid-base * 2;
+            @include medium-up {
+                margin-left: $grid-base * 2;
+            }
         }
     }
 }

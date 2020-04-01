@@ -349,13 +349,13 @@ a {
   padding-top: 80px; }
   @media (min-width: 1200px) {
     .t-site-header__hero {
-      background: url("../images/header-postac.png") 15% 100% no-repeat, linear-gradient(0deg, #ebcb55 0%, #f8d87e 100%);
+      background: url("../images/header-postac.png") 5% 100% no-repeat, linear-gradient(0deg, #ebcb55 0%, #f8d87e 100%);
       padding-bottom: 180px;
       padding-top: 200px; } }
 
 @media (min-width: 1200px) {
   .t-site-header__hero-right {
-    padding-left: 725px;
+    padding-left: 600px;
     padding-right: 0; } }
 
 .t-site-header__intro-text {
@@ -430,8 +430,9 @@ a {
       font-size: 1.5rem; }
     .t-promoted__text--size3 {
       font-size: 1.5rem; }
-  .t-promoted__code .c-btn {
-    margin-left: 20px; }
+  @media (min-width: 800px) {
+    .t-promoted__code .c-btn {
+      margin-left: 20px; } }
 
 .t-newsletter {
   background-color: #f2f3f5;
